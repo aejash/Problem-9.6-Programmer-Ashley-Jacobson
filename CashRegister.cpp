@@ -8,11 +8,6 @@
 using namespace std;
 
 
-CashRegister::CashRegister()
-{
-
-}
-
 void CashRegister::clear()
 {
     for(int i = 0; i < prices.size(); i++)
